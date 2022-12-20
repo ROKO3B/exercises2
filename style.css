@@ -11,6 +11,7 @@ img {
 li {
   list-style: none;
 }
+
 .wrapper {
   max-width: 960px;
   margin: 0 auto 130px auto;
@@ -19,10 +20,9 @@ li {
 
 .site-title {
   display: block;
-
-    a {
-      display: block;
-    }
+}
+.site-title a {
+  display: block;
 }
 
 .section-title {
@@ -32,8 +32,6 @@ li {
   text-align: center;
   font-weight: bold;
 }
-
-
 
 /*--------------------header---------------------*/
 .header {
@@ -49,59 +47,45 @@ li {
 .nav-menu {
   display: flex;
   padding: 10px 0;
-
-  li {
-    margin-left: 30px;
-
-    a {
-      font-size: 14px;
-    }
-    a:hover {
-      opacity: 0.7;
-    }
-  }
+}
+.nav-menu li {
+  margin-left: 30px;
+}
+.nav-menu li a {
+  font-size: 14px;
+}
+.nav-menu li a:hover {
+  opacity: 0.7;
 }
 
 .mainvisual {
   max-width: 1920px;
   margin-bottom: 80px;
-
-  img {
+}
+.mainvisual img {
   height: 420px;
   width: 100%;
-  object-fit: cover;
-  }
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*--------------------about---------------------*/
-
-#about {
-
-  ul {
-    margin-bottom: 30px;
-    font-size: 14px;
-    
-    li:first-child {
-      margin-bottom: 30px;
-    }
-  }
+#about ul {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+#about ul li:first-child {
+  margin-bottom: 30px;
 }
 
 /*--------------------works---------------------*/
-
-#works {
-   
-  ul{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
- 
-    li img{
-    width: 266px;
-    height: 173px;
-    
-    
-    margin-bottom: 50px;
-    }
-  }
+#works ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+#works ul li img {
+  width: 266px;
+  height: 173px;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=style.css.map */
