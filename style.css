@@ -31,6 +31,7 @@ li {
   margin-bottom: 65px;
   text-align: center;
   font-weight: bold;
+  font-family: "Meiryo", system-ui;
 }
 
 /*--------------------header---------------------*/
@@ -77,6 +78,19 @@ li {
 #about ul li:first-child {
   margin-bottom: 30px;
 }
+#about .location-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#about .location-wrapper .location {
+  width: 32%;
+}
+#about .location-wrapper .location-map {
+  width: 64%;
+}
+#about .location-wrapper .location-map iframe {
+  width: 100%;
+}
 
 /*--------------------works---------------------*/
 #works ul {
@@ -88,4 +102,131 @@ li {
   width: 266px;
   height: 173px;
   margin-bottom: 50px;
+}
+
+/*--------------------news---------------------*/
+#news dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #c8c8c8;
+  padding-bottom: 20px;
+}
+#news dl dt {
+  width: 20%;
+  border-bottom: 1px solid #c8c8c8;
+  padding: 15px;
+  font-weight: normal;
+}
+#news dl dd {
+  width: 80%;
+  border-bottom: 1px solid #c8c8c8;
+  padding: 15px;
+}
+
+/*--------------------contact---------------------*/
+#contact dl {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#contact dl dt {
+  width: 15%;
+  font-weight: normal;
+}
+#contact dl dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+#contact dl dd input {
+  width: 100%;
+  border: 1px solid #c8c8c8;
+}
+#contact dl dd textarea {
+  width: 100%;
+  height: 10rem;
+  border: 1px solid #c8c8c8;
+}
+
+#contact .button {
+  text-align: center;
+}
+#contact .button input {
+  width: 200px;
+  background-color: #24292E;
+  color: #fff;
+  border: 1px solid #24292E;
+  padding: 15px 0;
+}
+#contact .button input:hover {
+  background-color: #fff;
+  color: #24292E;
+}
+
+/*--------------------footer---------------------*/
+.footer {
+  font-size: 10px;
+  height: 35px;
+  padding: 10px 20px;
+  background-color: #24292E;
+  color: #fff;
+  text-align: center;
+}
+
+/*--------------------sp---------------------*/
+@media screen and (max-width: 600px) {
+  .wrapper {
+    margin-bottom: 70px;
+  }
+  .site-title {
+    margin-top: 20px;
+  }
+  .section-title {
+    margin-left: 40px;
+  }
+  .header {
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .nav-menu li {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  .nav-menu li:first-child {
+    margin-left: 0;
+  }
+  #works ul {
+    flex-direction: column;
+  }
+  #works ul li {
+    width: 100%;
+  }
+  #works ul li img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 23px;
+  }
+  #news dl {
+    flex-direction: column;
+  }
+  #news dl dt {
+    width: 100%;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  #news dl dd {
+    width: 100%;
+    padding-top: 0;
+  }
+  #contact dl {
+    flex-direction: column;
+  }
+  #contact dl dt {
+    width: 100%;
+  }
+  #contact dl dd {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
