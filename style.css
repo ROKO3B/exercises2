@@ -197,6 +197,12 @@ li {
   .nav-menu li:first-child {
     margin-left: 0;
   }
+  #about .location-wrapper {
+    flex-direction: column;
+  }
+  #about .location-wrapper .location .location-wrapper {
+    width: 100%;
+  }
   #works ul {
     flex-direction: column;
   }

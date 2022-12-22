@@ -237,6 +237,17 @@ li {
         margin-left: 0;
   }
  
+  #about {
+
+    .location-wrapper {
+    flex-direction: column;
+
+      .location .location-wrapper {
+        width: 100%;
+      }
+    }
+
+  }
 
   #works { 
     ul {
