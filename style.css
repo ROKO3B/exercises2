@@ -199,8 +199,6 @@ li {
   }
   #about .location-wrapper {
     flex-direction: column;
-  }
-  #about .location-wrapper .location .location-wrapper {
     width: 100%;
   }
   #works ul {
