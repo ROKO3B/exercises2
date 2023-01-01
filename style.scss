@@ -236,16 +236,22 @@ li {
   .nav-menu li:first-child {
         margin-left: 0;
   }
+
  
-  #about {
-
-    .location-wrapper {
+ 
+ 
+  .location-wrapper {
     flex-direction: column;
-    width: 100%;
-    
+    align-items: center;
+    width: auto;
+   
   }
-
+  .location {
+    p {
+      margin-bottom: 30px;
+    }
   }
+  
 
   #works { 
     ul {
